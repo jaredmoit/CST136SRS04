@@ -27,6 +27,12 @@
     <ClInclude Include="range.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="haversine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compareByLatitude.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="gps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="haversine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

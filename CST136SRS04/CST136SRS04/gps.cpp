@@ -8,13 +8,6 @@ GPS::Angle<min, max>::Angle(const degree_type degree, const minute_type minute, 
 
 }
 
-
-GPS::Location::Location(const std::string name, const Latitude latitude, const Longitude longitude)
-	:name_(name), latitude_(latitude), longitude_(longitude)
-{
-
-}
-
 GPS::Latitude::Latitude(const Cardinal cardinal, const degree_type degree, const minute_type minute, const second_type second)
 	: Angle(degree, minute, second), cardinal_(cardinal)
 {
@@ -26,3 +19,10 @@ GPS::Longitude::Longitude(const Cardinal cardinal, const degree_type degree, con
 {
 
 }
+
+GPS::Location::Location(const std::string name, const Latitude latitude, const Longitude longitude)
+	:name_(name), latitude_(latitude), longitude_(longitude)
+{
+	
+}
+

@@ -7,7 +7,7 @@ namespace GPS
 	template<int min, int max>
 	class Angle
 	{
-		//static_assert(min < max);
+		static_assert(min < max);
 
 	private:
 		using base_degree_type = int;
@@ -19,12 +19,10 @@ namespace GPS
 		using minute_type = Range<base_minute_type, 0, 60>;
 		using second_type = Range<base_second_type, 0, 60>;
 
-	private:
+	public:
 		const degree_type degree_;
 		const minute_type minute_;
 		const second_type second_;
-
-	public:
 		Angle(const degree_type degree, const minute_type minute, const second_type second);
 	};
 }
@@ -58,12 +56,10 @@ namespace GPS
 {
 	class Location
 	{
-	private:
+	public:
 		const std::string name_;
 		const Latitude latitude_;
 		const Longitude longitude_;
-
-	public:
 		Location(const std::string name, const Latitude latitude, const Longitude longitude);
 	};
 }

@@ -9,7 +9,6 @@ private:
 	static constexpr auto kUnboundUpper{ std::numeric_limits<value_type>::max() };
 	value_type upperBound{ kUnboundUpper };
 	value_type lowerBound{ kUnboundLower };
-	value_type value_;
 
 	bool isValid(value_type v)
 	{
@@ -18,6 +17,7 @@ private:
 	}
 
 public:
+	value_type value_;
 	Range(const value_type value)
 		:lowerBound(min), upperBound(max), value_(isValid(value) ? value : kUnboundLower)
 	{
