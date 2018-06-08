@@ -2,7 +2,6 @@
 #include "compareByLatitude.h"
 #include "gps.h"
 
-//use tuple?
 struct compareByLatitude //comparison function object
 {
 	bool operator ()(const GPS::Location & loc1, const GPS::Location & loc2) const

@@ -151,6 +151,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="compareByLatitude.h" />
+    <ClInclude Include="compareByLongitude.h" />
     <ClInclude Include="gps.h" />
     <ClInclude Include="haversine.h" />
     <ClInclude Include="range.h" />
