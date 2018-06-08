@@ -25,4 +25,3 @@ GPS::Location::Location(const std::string name, const Latitude latitude, const L
 {
 	
 }
-

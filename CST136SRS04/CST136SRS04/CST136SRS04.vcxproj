@@ -106,6 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,6 +142,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,11 +154,14 @@
   <ItemGroup>
     <ClInclude Include="compareByLatitude.h" />
     <ClInclude Include="compareByLongitude.h" />
+    <ClInclude Include="forwardListCalc.h" />
     <ClInclude Include="gps.h" />
     <ClInclude Include="haversine.h" />
+    <ClInclude Include="mapCalc.h" />
     <ClInclude Include="range.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="vectorCalc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="gps.cpp" />

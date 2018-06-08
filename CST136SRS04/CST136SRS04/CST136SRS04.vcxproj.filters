@@ -36,6 +36,15 @@
     <ClInclude Include="compareByLongitude.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="vectorCalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="forwardListCalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mapCalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
