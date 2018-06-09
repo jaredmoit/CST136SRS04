@@ -58,8 +58,8 @@ namespace GPS
 	{
 	public:
 		const std::string name_;
-		const Latitude latitude_{};
-		const Longitude longitude_{};
+		const Latitude latitude_;
+		const Longitude longitude_;
 		Location(const std::string name, const Latitude latitude, const Longitude longitude);
 	};
 }
